@@ -16,7 +16,7 @@ export default function Nav() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <DropdownComponent
+        <Dropdown
           arrowIcon={false}
           inline={true}
           label={
@@ -38,7 +38,7 @@ export default function Nav() {
           <Dropdown.Item>Earnings</Dropdown.Item>
           <Dropdown.Divider />
           <Dropdown.Item>Sign out</Dropdown.Item>
-        </DropdownComponent>
+        </Dropdown>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
