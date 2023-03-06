@@ -48,7 +48,7 @@ export default function Example() {
               <span className="sr-only">KenDecor</span>
               <img
                 className="h-16"
-                src="src/images/kendecor.png"
+                src="/src/images/kendecor.png"
                 alt="KenDecor Logo"
               />
             </a>
